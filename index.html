@@ -43,7 +43,7 @@
 
 <body class="bg-black overflow-x-hidden font-poppins text-white">
     <main class="w-[90%] mx-auto ">
-
+        <h1 class="text-xl lg:text-2xl py-2">Daily CheckIn</h1>
         <section class="h-screen grid place-items-center">
             <div class="text-center">
                 <h1 class="lg:text-8xl md:text-7xl text-5xl  font-bold ">Under <br> Construction</h1>
@@ -77,6 +77,15 @@
             </div>
         </section>
     </main>
+    <footer class=" text-center py-4 border-t border-gray-600">
+        <div class="text-white">
+            daily-check-in &copy; <span id="year"></span>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 
